@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="container">
+            <div class="settings">
+                <select id="select" class="select">
+                    <option value="easy">easy</option>
+                    <option value="medium">medium</option>
+                    <option value="hard">hard</option>
+                </select>
+            </div>
+            <h1>typing speed game</h1>
+            <h2 class="score">Score: <span id="scoreCounter" class="scoreCounter"></span>0</h2>
+            <h3 id="randomWord" class="randomWord"></h3>
+            <input class="input" id="input" type="text">
+            <h4 style="color: blue;">Time:
+                <span id="time" class="time">10</span>
+            </h4>
+        </div>
+    </div>
+<!--     
+   <div class="modal hidden" id="modal">
+       <h1 class="timeIsOver">time is over!</h1>
+       <h2 class="modalScore">Your score:</h2>
+       <h3><span class="lastScore">0</span></h3>
+       <button onclick="location.reload()">Again!</button>
+   </div>
+   <div class="overlay" id="overlay"></div> -->
+    
+    <script src="./app.js"></script>
+</body>
+</html>
